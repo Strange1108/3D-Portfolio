@@ -1,4 +1,5 @@
 import Button from "../components/Button";
+import HeroExperience from "../components/HeroModals/HeroExperience";
 import { words } from "../constants";
 
 const Hero = () => {
@@ -38,15 +39,19 @@ const Hero = () => {
               Hi, I’m Mahendra, a developer based in India with a passion for
               code.
             </p>
-            
+
             <Button
               text="See My Work"
               className="md:w-80 md:h-16 w-60 h-12"
               id="counter"
             />
-
           </div>
         </header>
+        <figure>
+          <div className="hero-3d-layout">
+            <HeroExperience />
+          </div>
+        </figure>
       </div>
     </section>
   );
